@@ -1,13 +1,49 @@
 <!doctype html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>1027</title>
+    <title>김도연 | 자기소개</title>
   </head>
   <body>
-    <div id="app"></div>
+    <main class="page">
+      <section class="card">
+        <div class="avatar" aria-hidden="true">도연</div>
+
+        <p class="greeting" id="greeting">안녕하세요!</p>
+        <h1 class="name">김도연</h1>
+        <p class="role">중학교 교사 · AI융합교육 전공</p>
+
+        <ul class="info">
+          <li class="info-item">
+            <span class="info-icon" aria-hidden="true">🎓</span>
+            <div>
+              <span class="info-label">소속</span>
+              <span class="info-value">서울대학교 사범대학 AI융합교육과</span>
+            </div>
+          </li>
+          <li class="info-item">
+            <span class="info-icon" aria-hidden="true">🏫</span>
+            <div>
+              <span class="info-label">직장</span>
+              <span class="info-value">염창중학교</span>
+            </div>
+          </li>
+        </ul>
+
+        <div class="mbti">
+          <span class="info-label">MBTI</span>
+          <div class="mbti-letters" id="mbti-letters">
+            <button type="button" class="mbti-letter" data-letter="E">E</button>
+            <button type="button" class="mbti-letter" data-letter="N">N</button>
+            <button type="button" class="mbti-letter" data-letter="F">F</button>
+            <button type="button" class="mbti-letter" data-letter="J">J</button>
+          </div>
+          <p class="mbti-desc" id="mbti-desc">글자를 눌러 보세요</p>
+        </div>
+      </section>
+    </main>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
